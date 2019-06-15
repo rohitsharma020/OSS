@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Onlineshoppingstore.InvisibleLink">
+        <methods>
+          <include name="getLinks"/>
+        </methods>
+      </class> <!-- Onlineshoppingstore.InvisibleLink -->
+      <class name="Onlineshoppingstore.Links">
+        <methods>
+          <include name="getLinks"/>
+        </methods>
+      </class> <!-- Onlineshoppingstore.Links -->
+      <class name="Onlineshoppingstore.TC1">
+        <methods>
+          <include name="open"/>
+          <include name="selectvalue"/>
+          <include name="selectstock"/>
+        </methods>
+      </class> <!-- Onlineshoppingstore.TC1 -->
+      <class name="Onlineshoppingstore.TC1user">
+        <methods>
+          <include name="open"/>
+          <include name="data"/>
+        </methods>
+      </class> <!-- Onlineshoppingstore.TC1user -->
+      <class name="Onlineshoppingstore.SellerLogin">
+        <methods>
+          <include name="open"/>
+        </methods>
+      </class> <!-- Onlineshoppingstore.SellerLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -130,7 +130,7 @@ public class TC1 {
 
 	}
 	}
-
+                  System.out.println("");
 }
 	
 		
